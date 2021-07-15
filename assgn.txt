@@ -1,0 +1,342 @@
+ =====================================================================================================================================================================================================================================================================                                                                                  
+
+ 
+                                                                                       Assignment 1
+  
+
+======================================================================================================================================================================================================================================================================
+
+
+        Course: Meanstack_May Batch(1&2)
+        Portions: Html, CSS ,Bootstrap, Git n Github, java script
+        Faculty: Sajay
+ 
+
+======================================================================================================================================================================================================================================================================
+
+
+
+1.   	Define HTML?  Explain the layout of HTML?
+
+        The HyperText Markup Language is the standard markup language for designening or creating Web pages.It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript
+        Every website has a specific layout to display content in a specific manner.
+        Following are different HTML5 elements which are used to define the different parts of a webpage.
+
+        <header> - Defines a header for a document or a section
+        <nav> - Defines a set of navigation links
+        <section> - Defines a section in a document
+        <article> - Defines an independent, self-contained content
+        <aside> - Defines content aside from the content (like a sidebar)
+        <footer> - Defines a footer for a document or a section
+        <details> - Defines additional details that the user can open and close on demand
+        <summary> - Defines a heading for the <details> element
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.   	Define the terms:
+
+        A) HTML element & HTML tags
+        
+        i) HTML Elements:
+        The sections of the web page, such as a paragraph, an image, or a link is an element, and an element has a certain way of execution. For example, the link is used to be clicked, and the text boxes can be used to input text.
+
+        ii) HTML Tags
+        HTML elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>.
+
+ 	B)HTML attributes:
+        An additional attribute is given to each tag to alter the behavior of the tag. Attributes are defined directly after the tag name, inside the angular brackets. They appear in opening tags and can never appear in closing tags.
+
+ 	C)HTML iframe:
+         The iframe in HTML stands for Inline Frame.An inline frame is used to embed another document within the current HTML document.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.   	HTML 5 VS. HTML?
+
+                                      HTML                                                                                                                   HTML5
+
+
+	A hypertext markup language (HTML) is the primary language for developing web pages.                                HTML5 is a new version of HTML with new functionalities with markup language with Internet technologies.
+
+        The HTML browser uses cache memory as temporary storage.                                                            HTML5 has the storage options like:application cache, SQL database, and web storage.
+
+        Language in HTML does not have support for video and audio.                                                         HTML5 supports both video and audio.
+
+        HTML is compatible with almost all browsers                                                                         It supported by all new browser like Firefox, Mozilla, Chrome, Safari, etc.
+ 
+        Uses cookies to store data                                                                                          Uses local storage instead of cookies
+            
+        Vector graphics are possible with the help of technologies like VML, Silverlight, Flash,etc.                        Vector graphics is an integral part of HTML5, SVG and canvas.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.   	What is SVG in HTML?
+
+        SVG stands for Scalable Vector Graphics. It basically defines vector-based graphics in XML format. SVG graphics do NOT lose any quality if they are zoomed or resized. Every element and every attribute in SVG files can be animated.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.     Define CSS. What are its components and types?
+
+       CSS stands for Cascading Style Sheets. It describes how HTML elements are to be displayed on screen, paper, or in other media.There are three types of CSS which are given below: 
+
+     a)Inline CSS
+     b)Internal or Embedded CSS
+     c)External CSS
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6.   	Differentiate CSS box model and flex box with examples.
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7.   	What is cell spacing and cell padding?
+
+The cell padding attribute places spacing around data within each cell. The cell spacing attribute places space around each cell in the table
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.   	What is bootstrap?
+
+
+Bootstrap is a potent front-end framework used to create modern websites and web apps. It's open-source and free to use, yet features numerous HTML and CSS templates for UI interface elements such as buttons and forms. Bootstrap also supports JavaScript extensions.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9.   	Define the terms:
+	
+     A) bootstrap carousel:
+The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.
+
+
+     B)	bootstrap grid system:
+Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive.Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size
+
+     C)	bootstrap navbar:
+A "navbar" is an area on a page that contains navigation components (links, buttons, etc) for getting to other pages of the website
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10.   What is GIT? Explain the Git architecture?
+
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is essentially a content-addressable filesystem made up of objects that form a hierarchy which mirrors the content's filesystem tree. 
+Git has three main primitive types it uses to represent content for a repository: trees, blobs, and commits. All content is essentially stored as either tree or blob objects.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.   Difference between 1. GIT and GitHub 2. git pull and git fetch?
+
+
+
+Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories.
+git fetch is similar to pull but doesn't merge. i.e. it fetches remote updates ( refs and objects ) but your local stays the same (i.e. origin/master gets updated but master stays the same) . git pull pulls down from a remote and instantly merges.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12.   What is java script? List its features.
+
+JavaScript is a object-based scripting language. Giving the user more control over the browser.
+An important part of JavaScript is the ability to create new functions within scripts.It is widely used for client-side validation.
+
+Some of the features of JavaScript are:
+
+Lightweight
+Interpreted programming language
+Good for the applications which are network-centric
+Complementary to Java
+Complementary to HTML
+Open source
+Cross-platform
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13.   What is the difference between Local storage & Session storage?
+
+
+
+LocalStorage
+localStorage is a way to store data on the client’s computer.
+It allows the saving of key/value pairs in a web browser and it stores data with no expiration date. localStorage can only be accessed via JavaScript, and HTML5. However, the user has the ability to clear the browser data/cache to erase all localStorage data.
+
+Session storage
+stores data only for a session, meaning that the data is stored until the browser (or tab) is closed
+data is never transferred to the server
+can only be read on client-side
+storage limit is about 5-10MB
+opening multiple tabs/windows with the same URL creates sessionStorage for each tab/window
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14.   What is 'this' keyword in JavaScript?
+
+
+The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15.   What are all types of Pop-up boxes available in JavaScript?
+
+
+JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+An alert box is often used if you want to make sure information comes through to the user.
+When an alert box pops up, the user will have to click "OK" to proceed.
+
+A confirm box is often used if you want the user to verify or accept something.
+When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.
+
+
+A prompt box is often used if you want the user to input a value before entering a page.
+When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.u
+If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16.   What is the difference between === operator and == operator? Explain with an example.
+
+The == operator is an equality operator. It checks whether its two operands are the same or not by changing expression from one data type to others. You can use == operator in order to compare the identity of two operands even though, they are not of a similar type.
+
+=== (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with "2" using ===, then it will return a false value.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+17.    Explain what is pop () and push () method in JavaScript?
+
+
+
+A stack has two main operations that occur only at the top of the stack: push and pop. The push operation places an element at the top of stack whereas the pop operation removes an element from the top of the stacck.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18.   Explain try n catch concept in java string using examples.
+
+
+      The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19.   Explain error and exception handling with examples.
+
+
+
+      In programming, exception handling is a process or method used for handling the abnormal statements in the code and executing them. 
+      It also enables to handle the flow control of the code/program.
+      For handling the code, various handlers are used that process the exception and execute the code.
+      A throw statement is used to raise an exception. It means when an abnormal condition occurs, an exception is thrown using throw.
+      The thrown exception is handled by wrapping the code into the try…catch block. If an error is present, the catch block will execute, else only the try block statements will get executed.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+20.   Write a program to reverse a string.
+
+let str="hello";
+let rev="";
+for(let i=str.length-1;i>=0;i--){
+    rev+=str[i];
+}
+console.log(rev);
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+21.   Write a JavaScript program to find the Armstrong numbers of 3 digits.
+
+
+let r, sum=0;
+let a=532;
+let temp=a;
+while(a>0){
+    r=a%10;
+    sum=sum+(r*r*r);
+    a=a/10;
+}
+if(temp=sum)
+{
+    console.log("Armstrong number");
+}
+else{
+console.log("not Armstrong");
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+22.   Write a JavaScript program to construct the following pattern, using a nested for loop.
+
+
+* 
+*  * 
+* *  *
+* * * *
+
+
+ JS.CODE: 
+     
+      for (let row=1;row<=4;row++) {
+          
+          let str="";
+    
+      for (let star=1;star<=row;star++) {
+           
+           str+="* ";
+        }
+          console.log(str);
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+23.   Write a JavaScript program which computes the average mark of a student (5 subjects) and assign corresponding grades.
+
+
+let Eng = 50
+let Maths = 53
+let Science = 40
+let Hindi = 39
+let Mal = 50
+let Avg_mark = (Eng + Maths + Science + Hindi + Mal) / 5
+if (Avg_mark >= 80) {
+    console.log("Grade A");
+}
+else if (Avg_mark < 80 && Avg_mark >= 70) {
+    console.log("Grade B");
+}
+else (Avg_mark < 70 && Avg_mark >= 50)
+{
+    console.log("Grade C");
+}
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+24.   What is DOM?
+
+      The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25.   Design a webpage of your interest with technologies that you have learned.
+ 
+https://preethalkk.github.io/lumiin/
